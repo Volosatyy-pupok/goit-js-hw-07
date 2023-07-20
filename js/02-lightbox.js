@@ -19,10 +19,9 @@ function renderGallery() {
 document.addEventListener('DOMContentLoaded', () => {
   renderGallery();
 
-  // Ініціалізація бібліотеки SimpleLightbox
   const lightbox = new SimpleLightbox('.gallery a', {
-    captionsData: 'alt', // Використовувати значення атрибуту alt для підпису
-    captionDelay: 250 // Затримка перед відображенням підпису (250 мілісекунд)
+    captionsData: 'alt',
+    captionDelay: 250
   });
 });
 console.log(galleryItems);
